@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>North Star Bakery - Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Our Products</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Featured This Season</h2>
+      <picture>
+        <source media="(min-width: 800px)" srcset="media/bakery-feature-large_c.png">
+        <source media="(max-width: 799px)" srcset="media/bakery-feature-small_c.png">
+        <img src="media/bakery-feature-small_c.png" alt="Assortment of fresh pastries and loaves arranged in the bakery display case">
+      </picture>
+      <p>A responsive look at what just came out of the oven, sized to fit whatever device you're browsing on.</p>
+    </section>
+
+    <section>
+      <h2>Our Categories</h2>
+      <div class="card-group">
+        <div>
+          <h3>Breads</h3>
+          <img src="media/bakery-bread_c.png" alt="Row of freshly baked rustic bread loaves cooling on a wire rack">
+          <p>Sourdough, whole wheat, and seeded country loaves baked fresh daily. Prices range from $6 to $9 per
+            loaf.</p>
+        </div>
+
+        <div>
+          <h3>Pastries</h3>
+          <p>Croissants, morning buns, and seasonal fruit danishes made in small batches. Prices range from $3 to
+            $5 each.</p>
+        </div>
+
+        <div>
+          <h3>Cakes</h3>
+          <p>Custom cakes for birthdays, showers, and neighborhood events, available in single-layer and tiered
+            options. Pricing starts around $28 and varies with size and design.</p>
+        </div>
+      </div>
+      <p>No online checkout is available. Please use our <a href="contact.html">contact page</a> to submit a
+        pre-order or ask a question about pricing.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 North Star Bakery. 214 Maple Street.</p>
+  </footer>
+</body>
+</html>
